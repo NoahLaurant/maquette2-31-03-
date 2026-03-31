@@ -1,0 +1,15 @@
+.blanc{
+    color: aliceblue;
+}
+h3{
+font-size: large;
+}
+.fond-image1{
+    background-image: url(asset/bg-image-hero.png);
+}
+.fond-image2{
+    background-image: url(asset/bg-image-2.png);
+}
+footer{
+    background-color: black;
+}
