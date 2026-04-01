@@ -1,19 +1,36 @@
+/*couleur texte en blanc pour ce qui on un fond noir*/
 .blanc{
     color: white;
 }
+/*mettre en gras les titre h3*/
 h3{
-font-size: large;
+font-weight: 600;
 }
+/*une classe pour mettre une spécifique image en fond et la modifier de taille*/
 .fond-image1{
     background-image: url(asset/bg-image-hero.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;/*100% de la hauteur de l'écran*/
 }
+/*une classe pour mettre une spécifique image en fond*/
 .fond-image2{
     background-image: url(asset/bg-image-2.png);
 }
+/*mettre en bas un fond noir*/
 footer{
     background-color: black;
 }
-
+/*modifier la taille de l'image*/
+.image-lumiere
+{
+    width: 100vh;
+}
+/*mettre des lien en noir gras comme une écriture normal*/
+.lien-noir
+{
+    color: black;
+    font-style: normal;
+    text-decoration-line: none;
+    font-weight: 600;
+}
