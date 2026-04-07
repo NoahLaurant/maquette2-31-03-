@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
 /*couleur texte en blanc pour ce qui on un fond noir*/
 .blanc{
     color: white;
@@ -33,4 +40,66 @@ footer{
     font-style: normal;
     text-decoration-line: none;
     font-weight: 600;
+}
+/*Flex BOX*/
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.space-between{
+    justify-content: space-between;
+}
+.gap-8{
+    gap: 8px;
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.space-around{
+    justify-content: space-around;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+/*Texte*/
+a{
+    text-decoration: none;
+}
+.black{
+    color: black;
+}
+/*Marging & Padding*/
+.p-40{
+    padding: 40px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+
+/*Taille*/
+.w-40{
+    width: 40%;
+}
+.w-30{
+    width: 30%;
+}
+.w-100{
+    width: 100%;
+}
+
+/*bouton*/
+.btn{
+    padding: 7px 20px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px;
+}
+.fond-btn-noir{
+    background-color: black;
+}
+.fond-btn-blanc{
+    background-color: white;
 }
