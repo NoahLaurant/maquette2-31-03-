@@ -28,14 +28,7 @@ footer{
 {
     width: 100vh;
 }
-/*mettre des lien en noir gras comme une écriture normal*/
-.lien-noir
-{
-    color: black;
-    font-style: normal;
-    text-decoration-line: none;
-    font-weight: 600;
-}
+
 /*-----------------------------------------------
 Flex BOX
 -------------------------------------------------*/
@@ -96,6 +89,9 @@ font-weight: 600;
 
 .uppercase{
     text-transform: uppercase;/*mettre en majuscule*/
+}
+.txt-center{
+    text-align: center;
 }
 /*--------------------------------------------
 Marging & Padding
@@ -165,6 +161,10 @@ Taille
     width: 50%;
 }
 
+.w-45{
+    width: 45%;
+}
+
 .w-40{
     width: 40%;
 }
@@ -190,7 +190,9 @@ bouton---------------------------------------*/
     background-color: white;
 }
 
-/*Container*/
+/*--------------------------
+Container
+----------------------------*/
 .container-1200{
     max-width: 1200px;
     width: 100%;
