@@ -9,14 +9,13 @@
 <body>
 
     <!--en-tête-->
-      <header>
+   <header class="flex space-between align-center p-40">
 <img src="asset/logo-black.png" alt="">
-<nav>
-    <li><a href="" class="lien-noir">L’agence</a></li>
-   <li><a href="#projet"class="lien-noir">Les projets</a></li>
-    <li><a href=""class="lien-noir">L’équipe</a></li>
-   <li><a href=""class="lien-noir">La communauté</a></li>
-   <li><a href="index.html" class="lien-noir">retour a l'acueil</a></li>
+<nav class="flex gap-8">
+    <a href="" class="black">L’agence</a>
+   <a href="#projet" class="black">Les projets</a>
+    <a href=""class="black">L’équipe</a>
+   <a href=""class="black">La communauté</a>
 </nav>
 
     </header>
@@ -25,35 +24,40 @@
     <main>
 
 <!--premiére image de la page-->
-    <div>
-<h2>Lumiére épurée</h2>
+    <div class="flex align-center container-1200 mb-128">
+<h2 class="w-100">Lumiére épurée</h2>
 <img src="asset/img1-lumiere-Epuree.png" alt="" class="image-lumiere">
-<h3>Résidence contemporaine baignée de lumière naturelle</h3>
+<h3 class="w-100">Résidence contemporaine baignée de lumière naturelle</h3>
 <p>Découvrez Lumière Épurée, un projet architectural où la modernité rencontre la simplicité. Conçue pour maximiser la lumière naturelle, cette résidence se distingue par ses lignes épurées, ses volumes ouverts et ses espaces fluides qui invitent à la sérénité et à la convivialité.</p>
     </div>
 
-<!--deuxiéme image-->
-    <div>
-        <img src="asset/img2-lumiere-Epuree..png" alt="">
-        <h3>Architecture et design</h3>
+<!--deuxiéme image & troisiéme image-->
+<section class="flex align-center justify-center">  
+<div class="w-50">
+     <h3>Architecture et design</h3>
         <p> Chaque détail a été pensé pour créer un équilibre parfait entre fonctionnalité et esthétique. Les façades vitrées et les matériaux naturels mettent en valeur la clarté des espaces intérieurs, tandis que la disposition ouverte favorise une circulation fluide et une ambiance lumineuse constante.</p>
     </div>
-
-<!--troisiéme image-->
-    <div>
-<img src="asset/img3-lumiere-Epuree..png" alt="">
+    <div class="w-50 mb-128">
+        <img src="asset/img2-lumiere-Epuree..png" alt="">
+       </div>
+    
+        <div class="w-50">
+        <img src="asset/img3-lumiere-Epuree..png" alt="">
+     </div>
+     <div class="w-50">
 <h3>Lumière naturelle</h3>
 <p>Le projet tire parti de l’orientation et des ouvertures pour inonder chaque pièce de lumière naturelle. Cette approche favorise non seulement le bien-être, mais crée également un dialogue harmonieux entre intérieur et extérieur.</p>
-
-
-    </div>
+   </div>
+</section>  
 </main>
 
 <!--bas de la page-->
   <footer>
-<img src="asset/logo-white.png" alt="">
-<p class="blanc">Monochrome Studio</p>
-<a href=""></a>
+        <div class="flex align-center justify-center flex-column">
+<img src="asset/logo-white.png" alt="" class="mb-32">
+<p class="blanc w-20 mb-32">Monochrome Studio</p>
+<a href="" class="w-20 decoration-none blanc mb-32">contact@monochrome.com</a>
+</div>
     </footer>
 
 </body>
